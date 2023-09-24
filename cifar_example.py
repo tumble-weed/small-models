@@ -1,4 +1,4 @@
-from cifar10_models.vgg import vgg11_bn, vgg13_bn, vgg16_bn, vgg19_bn
+from pytorch_cifar10.cifar10_models.vgg import vgg11_bn, vgg13_bn, vgg16_bn, vgg19_bn
 
 # Untrained model
 my_model = vgg11_bn()
